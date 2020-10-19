@@ -27,7 +27,7 @@ If you use this code in your research, please consider citing:
 }
 ```
 
-A previous version of our dual encoding model was published in AAAI 2020: DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue. [[Paper]](https://arxiv.org/abs/1911.07251) [[Code]](https://github.com/JXZe/DualVD).
+A previous version of our dual encoding model was published in AAAI 2020: DualVD: An Adaptive Dual Encoding Model for Deep Visual Understanding in Visual Dialogue. [[Paper]](https://arxiv.org/abs/1911.07251) [[Code]](https://github.com/JXZe/DualVD)
 
 
 Requirements
@@ -68,6 +68,13 @@ python train.py --config-yml configs/lf_disc_faster_rcnn_x101_bs32.yml --gpu-ids
 ```
 
 The code have an `--overfit` flag, which can be useful for rapid debugging. It takes a batch of 5 examples and overfits the model on them.
+
+##### DualVD-LF 
+DualVD-LF is trained with [configs/lf_disc_faster_rcnn_x101.yml](https://github.com/JXZe/Learning_DualVD/blob/main/configs/lf_disc_faster_rcnn_x101.yml).
+
+##### DualVD-MN
+DualVD-LF is trained with [configs/mn_disc_faster_rcnn_x101.yml](https://github.com/JXZe/Learning_DualVD/blob/main/configs/mn_disc_faster_rcnn_x101.yml).
+
 
 ### Saving model checkpoints
 

@@ -1,7 +1,6 @@
 Learning Dual Encoding Model for Adaptive Visual Understanding in Visual Dialogue
 ====================================
 
-
 ![alt text](image/visual_result.png)
 <p align="center">Example results from the VisDial v1.0 validation dataset.</p>
 
@@ -73,7 +72,7 @@ The code have an `--overfit` flag, which can be useful for rapid debugging. It t
 DualVD-LF is trained with [configs/lf_disc_faster_rcnn_x101.yml](https://github.com/JXZe/Learning_DualVD/blob/main/configs/lf_disc_faster_rcnn_x101.yml).
 
 ##### DualVD-MN
-DualVD-LF is trained with [configs/mn_disc_faster_rcnn_x101.yml](https://github.com/JXZe/Learning_DualVD/blob/main/configs/mn_disc_faster_rcnn_x101.yml).
+DualVD-MN is trained with [configs/mn_disc_faster_rcnn_x101.yml](https://github.com/JXZe/Learning_DualVD/blob/main/configs/mn_disc_faster_rcnn_x101.yml).
 
 
 ### Saving model checkpoints

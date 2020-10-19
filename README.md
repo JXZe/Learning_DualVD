@@ -19,7 +19,7 @@ This is a PyTorch implementation for [Learning Dual Encoding Model for Adaptive 
 If you use this code in your research, please consider citing:
 
 ```text
-@article{yu2019learning,
+@article{yu2020learning,
   title =  {Learning Dual Encoding Model for Adaptive Visual Understanding in Visual Dialogue},
   author =  {Yu, Jing and Jiang, Xiaoze and Qin, Zengchang and Zhang Weifeng and Hu, Yue and Wu, Qi},
   journal = {IEEE Transactions on Image Processing},

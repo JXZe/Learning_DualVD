@@ -6,7 +6,7 @@ Learning Dual Encoding Model for Adaptive Visual Understanding in Visual Dialogu
 
 
 
-This is a PyTorch implementation for [Learning Dual Encoding Model for Adaptive Visual Understanding in Visual Dialogue, IEEE Transactions on Image Processing](https://github.com/JXZe/Learning_DualVD).
+This is a PyTorch implementation for [Learning Dual Encoding Model for Adaptive Visual Understanding in Visual Dialogue, IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/document/9247486).
 
 
   * [Requirements](#Requirements)
@@ -22,6 +22,8 @@ If you use this code in your research, please consider citing:
   title =  {Learning Dual Encoding Model for Adaptive Visual Understanding in Visual Dialogue},
   author =  {Yu, Jing and Jiang, Xiaoze and Qin, Zengchang and Zhang Weifeng and Hu, Yue and Wu, Qi},
   journal = {IEEE Transactions on Image Processing},
+  volume={30},
+  pages={220--233},
   year =  {2020}
 }
 ```
